@@ -29,6 +29,33 @@ body {
 	padding: 10px;
 }
 
+#area-principal {
+	width:920px;
+	margin: 0 auto;
+}
+
+#area-postagens, #area-lateral {
+	background: yellow;
+}
+
+#area-postagens {
+	width:660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+#area-rodape {
+	font-size: 1.2em;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+	clear: both;
+}
+
 /* Formatações em Geral */
 
 h1 {
@@ -54,4 +81,13 @@ a:link , a:visited {
 a:hover {
 	color: #f7b600;
 	background: #FFF;
+}
+
+
+/* Formatação de Postagens */
+
+.postagens {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
 }
